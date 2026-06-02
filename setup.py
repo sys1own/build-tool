@@ -9,6 +9,7 @@ setup(
     entry_points={
         "console_scripts": [
             "ubt=universal_build_tool.main:main",
+            "ubt-test=tests.test_enterprise_pipeline:main",
         ],
     },
 )
